@@ -1,0 +1,27 @@
+{
+    "apps" : [{
+        "name"      : "wyapi",
+        "script"    : "app.js",
+        "env": {
+        "COMMON_VARIABLE": "true"
+        },
+        "env_production" : {
+        "NODE_ENV": "production"
+        }
+    }],
+    "deploy" : {
+        "production" : {
+          "user" : "ubuntu",
+          "host" : ["132.232.3.185"],
+          "port" : 3350,
+          "ref"  : "origin/master",
+          "repo" : "git@gitee.com:hellosanbao/kmmh.git",
+          "path" : "/home/ubuntu/www/kkmh/production",
+          "ssh_options": "StrictHostKeyChecking=no",
+          "post-deploy" : "npm install && pm2 startOrRestart ecosystem.json --env production",
+          "env"  : {
+            "NODE_ENV": "production"
+          }
+        }
+    }
+}

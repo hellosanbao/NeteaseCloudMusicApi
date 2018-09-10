@@ -17,7 +17,7 @@ npmview('NeteaseCloudMusicApi', function(err, version, moduleInfo) {
         version +
         ',当前版本:' +
         package.version +
-        ',请及时更新'
+        ',请及时更新 '
     )
   }
 })
