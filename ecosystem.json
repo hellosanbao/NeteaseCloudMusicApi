@@ -15,8 +15,8 @@
           "host" : ["132.232.3.185"],
           "port" : 3350,
           "ref"  : "origin/master",
-          "repo" : "git@gitee.com:hellosanbao/kmmh.git",
-          "path" : "/home/ubuntu/www/kkmh/production",
+          "repo" : "git@github.com:hellosanbao/NeteaseCloudMusicApi.git",
+          "path" : "/home/ubuntu/www/wyapi/production",
           "ssh_options": "StrictHostKeyChecking=no",
           "post-deploy" : "npm install && pm2 startOrRestart ecosystem.json --env production",
           "env"  : {
