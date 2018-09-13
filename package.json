@@ -15,15 +15,15 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "apicache": "^1.2.1",
-    "big-integer": "^1.6.28",
+    "apicache": "^1.2.3",
+    "big-integer": "^1.6.36",
     "express": "^4.16.3",
-    "request": "^2.85.0",
-    "npmview": "^0.0.4"
+    "npmview": "0.0.4",
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "intelli-espower-loader": "^1.0.1",
-    "mocha": "^5.1.1",
-    "power-assert": "^1.5.0"
+    "mocha": "^5.2.0",
+    "power-assert": "^1.6.1"
   }
 }
