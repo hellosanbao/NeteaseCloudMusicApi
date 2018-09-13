@@ -19,6 +19,7 @@
     "big-integer": "^1.6.36",
     "express": "^4.16.3",
     "npmview": "0.0.4",
+    "pm2": "^3.1.2",
     "request": "^2.88.0"
   },
   "devDependencies": {
