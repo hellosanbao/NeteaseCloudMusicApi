@@ -1,3 +1,5 @@
+const easyMonitor = require('easy-monitor');
+easyMonitor('网易云');
 const express = require('express')
 const apicache = require('apicache')
 const path = require('path')

@@ -17,7 +17,9 @@
   "license": "MIT",
   "dependencies": {
     "apicache": "^1.2.3",
+    "autocannon": "^3.2.0",
     "big-integer": "^1.6.36",
+    "easy-monitor": "^2.2.6-rc.0",
     "express": "^4.16.3",
     "npmview": "0.0.4",
     "pm2": "^3.1.2",
